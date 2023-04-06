@@ -1,5 +1,5 @@
 
-## <img src="resource/logo.jpg" width="70px"> 
+## <img src="https://graph.org/file/6f5385233d4424c6ef08e.jpg" width="70px"> 
 
 <p>
     <a href="https://t.me/any24e" target="blank"><img src="https://img.shields.io/badge/@Any24-DLK-30302f?style=flat&logo=telegram" /></a>
@@ -14,7 +14,7 @@ ___
  
 - DEPLOY TO HEROKU
 
-[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-DLK/DOOZY-MUSIC)
+[![DEPLOY](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Samdaveloper/DOOZY-MUSIC)
 
 
 
