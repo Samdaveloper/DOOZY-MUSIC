@@ -2,7 +2,7 @@
 ## <img src="https://graph.org/file/6f5385233d4424c6ef08e.jpg" width="70px"> 
 
 <p>
-    <a href="https://t.me/any24e" target="blank"><img src="https://img.shields.io/badge/@Any24-DLK-30302f?style=flat&logo=telegram" /></a>
+    <a href="https://t.me/lover_jerry" target="blank"><img src="https://img.shields.io/badge/@Any24-DLK-30302f?style=flat&logo=telegram" /></a>
 
 ___
 
