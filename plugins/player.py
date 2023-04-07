@@ -324,7 +324,7 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="final.png",
+            photo="https://graph.org/file/6b76376dabf7cee3c59ef.jpg",
             reply_markup=keyboard,
             caption="●⃝✘⚚𓂆𓂇𝐃🕊.⋆"
            )
