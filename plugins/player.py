@@ -172,10 +172,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -212,10 +212,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -229,10 +229,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPO_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPO_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -284,10 +284,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="GROUP", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="CHANNEL", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -324,7 +324,7 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="https://graph.org/file/6b76376dabf7cee3c59ef.jpg",
+            photo="https://graph.org/file/f9baf2c549e950016c260.jpg",
             reply_markup=keyboard,
             caption="●⃝✘⚚𓂆𓂇𝐃🕊.⋆"
            )
