@@ -249,9 +249,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**Please Type the Song Name To Play Music...**"
+                "**Please Type the Song Name To Play Music🎶...**"
             )
-        await lel.edit("**Connecting...**")
+        await lel.edit("**Connecting🥀✨...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -324,7 +324,7 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="https://graph.org/file/f9baf2c549e950016c260.jpg",
+            photo="final.png",
             reply_markup=keyboard,
             caption="●⃝✘⚚𓂆𓂇𝐃🕊.⋆"
            )
