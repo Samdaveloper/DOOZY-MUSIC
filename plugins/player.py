@@ -326,7 +326,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="●⃝✘⚚𓂆𓂇𝐃🕊.⋆"
+            caption=f"➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ‌ᴜᴇᴜᴇ ᴀᴛ {position}\n\n‣ ᴛɪᴛʟᴇ : [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ ᴅᴜʀᴀᴛɪᴏɴ : {duration} ᴍɪɴᴜᴛᴇs\n‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {ruser}"
            )
 
     os.remove("final.png")
