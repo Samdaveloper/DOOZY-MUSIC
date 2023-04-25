@@ -326,7 +326,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=_["music_10"].format(pos),
+            caption="「⋆ •⨻ ᴥᴅ ✘ ᴤᴀᴍᴇᴇʀ ◉」",
 
 
            )
