@@ -308,7 +308,7 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo="final.png",
+            photo="https://graph.org/file/11fb641b1724ec95a9420.jpg",
             caption="**Track added to the queue At `{}` 🌝...**".format(position),
             reply_markup=keyboard,
         )
@@ -324,9 +324,9 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="final.png",
+            photo="https://graph.org/file/11fb641b1724ec95a9420.jpg",
             reply_markup=keyboard,
-            caption="➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ‌ᴜᴇᴜᴇ ᴀᴛ {position}\n\n‣ ᴛɪᴛʟᴇ : [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ ᴅᴜʀᴀᴛɪᴏɴ : {duration} ᴍɪɴᴜᴛᴇs\n‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {ruser}"
+            caption="➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ‌ᴜᴇᴜᴇ ᴀᴛ\n\n‣ ᴛɪᴛʟᴇ : [](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ ᴅᴜʀᴀᴛɪᴏɴ : {} ᴍɪɴᴜᴛᴇs\n‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {}"
            )
 
     os.remove("final.png")
