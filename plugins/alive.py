@@ -30,7 +30,7 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("S♡K") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMAGE}",
@@ -42,14 +42,14 @@ I am Playing Music Songs in Telegram Video Chat.❤️
             [
                 [
                       InlineKeyboardButton(
-                          text="Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                          text="❤️‍🔥Add Me To Your Group❤️‍🔥", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],[
                       InlineKeyboardButton(
-                          text="Updates", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_GROUP}"),
+                          text="Updates★S♡K★", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="Support★S♡K★", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-                      InlineKeyboardButton(text="Source", url=f"https://github.com/TEAM-DLK/DOOZY-MUSIC")
+                      InlineKeyboardButton(text="Owner★S♡K★", url=f"https://t.me/{OWNER_USERNAME}"),
+                      InlineKeyboardButton(text="Source★S♡K★", url=f"https://t.me/lover_jerry")
                 ]
                 
            ]
