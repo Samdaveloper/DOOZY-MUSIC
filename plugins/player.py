@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 **searching...**")
+    lel = await message.reply("❤️")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Doozy_Player"
+        user.first_name = "lover_jerry"
     usar = user
     wew = usar.id
     try:
@@ -172,10 +172,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP★S♡K★❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL★S♡K★💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER★S♡K★❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -212,10 +212,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP★S♡K★❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL★S♡K★💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER★S♡K★❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -229,10 +229,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPO_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP★S♡K★❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL★S♡K★💚", url=f"https://t.me/{SUPPO_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER★S♡K★❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -251,7 +251,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**Please Type the Song Name To Play Music🎶...**"
             )
-        await lel.edit("**Connecting🥀✨...**")
+        await lel.edit("💖")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -284,10 +284,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="❣️GROUP❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
-                      InlineKeyboardButton(text="💚CHANNEL💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                        InlineKeyboardButton(text="❣️GROUP★S♡K★❣️", url=f"https://t.me/{SUPPORT_GROUP}"),
+                      InlineKeyboardButton(text="💚CHANNEL★S♡K★💚", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(text="❤️‍🔥OWNER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥OWNER★S♡K★❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
 
                 ]
             ]
@@ -419,5 +419,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="resource/reload.jpg",
-                              caption="**Reload is Successfully....**"
+                              caption="**Reload is Successfully❤️‍🔥🥰....**"
     )
