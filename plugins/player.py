@@ -324,9 +324,11 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="https://graph.org/file/11fb641b1724ec95a9420.jpg",
-            reply_markup=keyboard,
-            caption="➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ‌ᴜᴇᴜᴇ ᴀᴛ\n\n‣ ᴛɪᴛʟᴇ : [](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ ᴅᴜʀᴀᴛɪᴏɴ : {} ᴍɪɴᴜᴛᴇs\n‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {}"
+            photo="qimg",
+            
+            caption=f"**➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ̨ᴜᴇᴜᴇ ᴀᴛ {position}**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
+
+            reply_markup=buttons,"
            )
 
     os.remove("final.png")
