@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("❤️")
+    lel = await message.reply("💫")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -326,7 +326,19 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="「⋆ •⨻ ᴥᴅ ✘ ᴤᴀᴍᴇᴇʀ ◉」",
+            caption="➻ 🍃sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ ɪɴ ʜᴇᴀᴠᴇɴ🍃
+
+💖ᴘᴏᴡᴇʀᴇᴅ ʙʏ [✘𓂆𓂇Đ♡kanchan]
+
+ ❣️ ᴛɪᴛʟᴇ : 
+
+⏱ ᴅᴜʀᴀᴛɪᴏɴ : 4:13 ᴍɪɴᴜᴛᴇs
+
+🌿 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :  
+
+ 💞🌹 kanchan ɪ ʟᴏᴠᴇ ʏᴏᴜ sᴏ ᴍᴜᴄʜ🌹💞
+
+ ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ ✘𓂆𓂇Đ 🥀",
 
 
            )
