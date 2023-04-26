@@ -326,10 +326,10 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="ᴛɪᴛʟᴇ"
-                    "ᴅᴜʀᴀᴛɪᴏɴ"
-                    "ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ",
-
+            caption="[play 1]"
+               ᴛɪᴛʟᴇ="[n/n]"
+            ᴅᴜʀᴀᴛɪᴏɴ="[n/n]"
+           ʀᴇǫᴜᴇsᴛᴇᴅ="[n/n]"
 
 
 
