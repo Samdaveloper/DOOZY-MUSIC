@@ -326,10 +326,15 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="https://graph.org/file/11fb641b1724ec95a9420.jpg",
             reply_markup=keyboard,
-            caption="",
+            caption="**➻ 🍃sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ ɪɴ ʜᴇᴀᴠᴇɴ🍃
 
+💖ᴘᴏᴡᴇʀᴇᴅ ʙʏ [✘𓂆𓂇Đ♡kanchan]
 
-
+🕒 𝐃υяαтιση:** {} 𝐌ιη\n**👤 𝐀∂∂ε∂ вү:** {}\n\n**#⃣ ρσsιтιση:** {}".format(
+                duration,
+                message.from_user.mention(),
+                position,
+            ),
 
 
 
