@@ -324,12 +324,12 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="final.png",
+            photo="https://graph.org/file/11fb641b1724ec95a9420.jpg",
             reply_markup=keyboard,
-            caption="[play 1]"
-               ᴛɪᴛʟᴇ="[n/n]"
-            ᴅᴜʀᴀᴛɪᴏɴ="[n/n]"
-           ʀᴇǫᴜᴇsᴛᴇᴅ="[n/n]"
+            caption="",
+
+
+
 
 
 
