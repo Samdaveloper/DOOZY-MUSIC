@@ -326,19 +326,20 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="➻ 🍃sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ ɪɴ ʜᴇᴀᴠᴇɴ🍃
+            caption="ᴛɪᴛʟᴇ"
+                    "ᴅᴜʀᴀᴛɪᴏɴ"
+                    "ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ",
 
-💖ᴘᴏᴡᴇʀᴇᴅ ʙʏ [✘𓂆𓂇Đ♡kanchan]
 
- ❣️ ᴛɪᴛʟᴇ : 
 
-⏱ ᴅᴜʀᴀᴛɪᴏɴ : 4:13 ᴍɪɴᴜᴛᴇs
 
-🌿 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :  
 
- 💞🌹 kanchan ɪ ʟᴏᴠᴇ ʏᴏᴜ sᴏ ᴍᴜᴄʜ🌹💞
 
- ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ ✘𓂆𓂇Đ 🥀",
+ 
+
+
+
+
 
 
            )
